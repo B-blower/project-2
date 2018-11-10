@@ -1,0 +1,231 @@
+body{
+	width:1920px;
+	height:1080px;
+	background:url(../images/background.png) no-repeat center center;
+	position:relative;
+	margin:0 auto;
+}
+.header{
+	height:209px;
+}
+.header .balloon-l{
+	float:left;
+	width:92px;
+	height:150px;
+	margin-left:188px;
+	margin-top:28px;
+	background:url(../images/balloon-l.png) no-repeat;
+}
+.header .headline{	
+  font-size: 46.663px;
+  font-family: "SimHei";
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  -moz-transform: matrix( 1.27387541387033,0,0,1.27387541387033,0,0);
+  -webkit-transform: matrix( 1.27387541387033,0,0,1.27387541387033,0,0);
+  -ms-transform: matrix( 1.27387541387033,0,0,1.27387541387033,0,0);
+  position: absolute;
+  left: 341.212px;
+  top: 99.61px;
+  width: 470px;
+  height: 43.704px;
+  z-index: 6;
+}
+.panel{
+	border: solid 6px #9ed5f4;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	width:920px;
+	height:663px;	
+	position:absolute;
+	top:209px;
+	left:500px;
+	background: url("../images/bg.png");
+}
+span{
+  font-size: 23.331px;
+  font-family: "SimHei";
+  color: rgb(32, 32, 32);
+  line-height: 1.2;
+  text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.35);
+}
+.reason{
+  font-size: 23.331px;
+  font-family: "SimHei";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+}
+.panel .name{
+	margin-top:85px;
+	margin-left:76px;
+	width:257px;
+	height:43px;
+	position:absolute;
+}
+.panel .gender{
+	margin-top:85px;
+	margin-left:333px;
+	width:225px;
+	height:43px;
+	position:absolute;
+}
+.panel .professional{
+	margin-top:167px;
+	margin-left:76px;
+	width:257px;
+	height:43px;
+	position:absolute;
+}
+.panel .class{
+	margin-top:167px;
+	margin-left:333px;
+	width:225px;
+	height:43px;
+	position:absolute;
+}
+.panel .tel{
+	margin-top:247px;
+	margin-left:76px;
+	width:585px;
+	height:43px;
+	position:absolute;
+}
+.panel .volunteer{
+	margin-top:326px;
+	margin-left:76px;
+	width:481px;
+	height:43px;
+	position:absolute;
+	
+}
+.panel .reason{
+	margin-top:367px;
+	margin-left:85px;
+	width:481px;
+	height:220px;
+	position:absolute;
+}
+.panel .submit{
+	margin-top:586px;
+	height:80px;
+	width:920px;
+	position:absolute;
+}
+.panel .photo{
+	margin-top:85px;
+	margin-left:661px;
+	width:296px;
+	height:203px;
+	position:absolute;
+}
+textarea{
+  margin-top:76px;
+  margin-left:9px;
+  border-radius: 20px;
+  opacity: 0.859;
+  width: 781px;
+  height: 109px;
+  position:absolute;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+.balloon-r{
+	margin-top:46px;
+	margin-left:1393px;
+	width:284px;
+	height:326px;
+	background:url(../images/balloon-r.png) no-repeat;
+}
+.one{
+  border-radius:20px;
+  opacity:0.859;
+  width:151px;
+  height:41px;
+  border:none;
+}
+.two{
+  border-radius:20px;
+  opacity:0.859;
+  width:414px;
+  height:41px;
+  border:none;
+}
+.three{
+  border-radius:20px;
+  opacity:0.859;
+  width:304px;
+  height:41px;
+  border:none;  
+}
+.four{
+  margin-top:0px;
+  margin-left:36px;
+  border-radius:20px;
+  opacity:0.859;
+  width:169px;
+  height:203px;
+  position:absolute;
+  background:url(../images/photo.png) no-repeat center center;
+  border:none;
+}
+h1{
+	margin-top:-41px;
+	margin-left:437px;
+	position:absolute;
+}
+select,input[type="text"]{
+  font-size: 23.331px;
+  font-family: "SimHei";
+  color: rgb(32, 32, 32);
+  line-height: 1.2;
+}
+h2{
+  margin-left:338px;
+  margin-top:38px;
+  font-size: 23.331px;
+  font-family: "SimHei";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  width: 103px;
+  height: 36px;
+  position:absolute;
+}
+input[type="submit"] {
+  font-size: 23.331px;
+  font-family: "SimHei";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  width: 164px;
+  height: 68px;
+  margin-left:384px;
+  background:url(../images/submit.png) no-repeat ;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}
+h3{
+  font-size: 23.331px;
+  font-family: "SimHei";
+  color: rgb(32, 32, 32);
+  line-height: 41px;
+  text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.35);
+  width: 24px;
+  height: 82px;
+  margin-top:77px;
+  position:absolute;
+}
+select{
+   appearance:none;
+   -moz-appearance:none;
+   -webkit-appearance:none;
+   background-color: #fff;
+   background:url(../images/arrow.png) no-repeat center center;
+}
