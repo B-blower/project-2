@@ -4,7 +4,7 @@ html{
 body{
 	width:1920px;
 	height:1080px;
-	background:url(../images/background.png) no-repeat center center;
+	background:url(../images/background.png) no-repeat;
 	position:relative;
 	margin:0 auto;
 }
